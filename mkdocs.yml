@@ -1,0 +1,21 @@
+site_name: Commenting Standards
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2-4
+
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  - Standard: commenting_standards.md
