@@ -1,0 +1,22 @@
+# =========================
+# Python Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Python cache / artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Sphinx / Documentation builds
+# =========================
+_build/
+build/
+docs/_build/
